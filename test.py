@@ -6,7 +6,7 @@ import numpy as np
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--image-path', type=str, default='./data/test.jpg')
-    parser.add_argument('--model-path', type=str, default='./gender_googlenet.onnx')
+    parser.add_argument('--model-path', type=str, default='./gender-googlenet.onnx')
     args = parser.parse_args()
 
     genders = ['Male', 'Female']
